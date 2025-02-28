@@ -57,7 +57,10 @@ class Empresa {
   }
 
   void exibirFuncionariosGerais() {
-    print(lista);
+    print('Id: - Nome:');
+    for (var i = 0; i < lista.length; i++) {
+      print('$i - ${lista[i]}');
+    }
   }
 
   void verificarIdDoUsuario(){
